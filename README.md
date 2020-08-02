@@ -15,7 +15,7 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 * [x] Settings page to change the default tip percentage.
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Remembering the bill amount across app restarts (if less than 10 minutes)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The main challenge I faced was understanding the flow of building some functionality of the application. For instance, let's say that I wanted to do something as simple as change the titles of the segment control when the user saves new default percentages. First, you have to make sure that the text fields are connected to the appropriate view controller. Next, you have to make sure that the button that I created to save changes is connected to the same view controller and that you are storing the saved values via UserDefaults. Afterwards, in the view controller that displays the segment control, you have to access the values set in UserDefaults and then finally modify the segment control titles. Although the task is simple, there are many steps along the way that can be not only difficult to remember, but also difficult to debug on your own as a beginner. There were many times where I got confused on what exactly was wrong, so I would just delete everything and go back to step one. I think with time and practice all of this will become second nature, but as a beginner it can be hard to grasp at first 🤗
 
 ## License
 
