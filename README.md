@@ -4,7 +4,7 @@ Christine's Tip Calculator 💖 is a tip calculator application for iOS.
 
 Submitted by: Christine Ai Luo
 
-Time spent: 3.5 hours spent in total
+Time spent: 4 hours spent in total
 
 ## User Stories
 
